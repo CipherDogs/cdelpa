@@ -1,0 +1,10 @@
+#+TITLE: CDELPA
+CipherDogs ELPA repository
+
+* Usage
+
+#+BEGIN_SRC elisp
+  (require 'package)
+
+  (add-to-list 'package-archives '("cdelpa" . "https://cipherdogs.net/cdelpa/") t)
+#+END_SRC
